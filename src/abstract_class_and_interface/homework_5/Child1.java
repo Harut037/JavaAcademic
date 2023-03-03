@@ -1,0 +1,9 @@
+package abstract_class_and_interface.homework_5;
+
+public class Child1 extends Base {
+    @Override
+    public void enable() {
+        super.enable();
+        System.out.println("Hello from Child1");
+    }
+}
