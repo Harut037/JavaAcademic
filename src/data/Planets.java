@@ -12,22 +12,22 @@ public enum Planets {
     URANUS("Uranus", 30687),
     NEPTUNE("Neptune", 60200);
 
-    private final String name;
+    private final String NAME;
 
-    private final int yearLength;
+    private final int YEAR_LENGTH;
 
     public int getYearLength() {
-        return yearLength;
+        return YEAR_LENGTH;
     }
 
     public String getName() {
-        return name;
+        return NAME;
     }
 
 
     Planets(String name, int yearLength) {
-        this.name = name;
-        this.yearLength = yearLength;
+        this.NAME= name;
+        this.YEAR_LENGTH = yearLength;
     }
 
     public void planets(Planets planet) {

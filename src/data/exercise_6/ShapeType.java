@@ -6,10 +6,10 @@ public enum ShapeType {
     SQUARE(new Square(3.4), "square"),
     RECTANGLE(new Rectangle(20.73, 15), "rectangle");
 
-    private final String name;
+    private final String NAME;
 
-    public String getName() {
-        return name;
+    public String getNAME() {
+        return NAME;
     }
 
 
@@ -17,7 +17,7 @@ public enum ShapeType {
 
     ShapeType(Shape shape, String name) {
         this.shape = shape;
-        this.name = name;
+        this.NAME = name;
 
     }
 
@@ -29,8 +29,8 @@ public enum ShapeType {
      * This method print area and perimeters of shapes.
      */
     public void print() {
-        System.out.println("\nArea of " + getName() + " = " + getShape().getArea());
-        System.out.println("\nPerimeter of " + getName() + " = " + getShape().getPerimeter());
+        System.out.println("\nArea of " + getNAME() + " = " + getShape().getArea());
+        System.out.println("\nPerimeter of " + getNAME() + " = " + getShape().getPerimeter());
     }
 
 

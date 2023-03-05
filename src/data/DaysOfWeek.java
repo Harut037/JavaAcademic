@@ -14,22 +14,22 @@ public enum DaysOfWeek {
     SUNDAY("Sunday", 7);
 
 
-    private final String daysOfWeek;
+    private final String DAYS_OF_WEEK;
 
 
-    private final int numberOfDays;
+    private final int NUMBER_OF_DAYS;
 
     public int getNumberOfDays() {
-        return numberOfDays;
+        return NUMBER_OF_DAYS;
     }
 
     public String getDaysOfWeek() {
-        return daysOfWeek;
+        return DAYS_OF_WEEK;
     }
 
     DaysOfWeek(String daysOfWeek, int numberOfDays) {
-        this.daysOfWeek = daysOfWeek;
-        this.numberOfDays = numberOfDays;
+        this.DAYS_OF_WEEK = daysOfWeek;
+        this.NUMBER_OF_DAYS = numberOfDays;
     }
 
 

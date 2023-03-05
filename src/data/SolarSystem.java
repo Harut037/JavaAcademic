@@ -62,18 +62,18 @@ public enum SolarSystem {
         }
     };
 
-    private final String name;
+    private final String NAME;
 
 
 
 
     public String getName() {
-        return name;
+        return NAME;
     }
 
 
     SolarSystem(String name) {
-        this.name = name;
+        this.NAME = name;
 
     }
 
