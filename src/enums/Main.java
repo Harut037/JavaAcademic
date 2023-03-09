@@ -1,6 +1,10 @@
 package enums;
 
 import enums.homework_1.State;
+import enums.homework_3.SolarSystem;
+import enums.homework_4.DayOfWeek;
+import enums.homework_5.Seasons;
+import enums.homework_6.PizzaSize;
 
 
 import java.util.Scanner;
@@ -9,14 +13,15 @@ public class Main extends State {
     public static void main(String[] args) {
 
 
+
 // 1. Implement a traffic light using an abstract class and an enum in Java. The traffic
 //    light should have three states: RED, YELLOW, and GREEN, and it should
 //    transition between these states automatically every few seconds. The abstract
 //    class should define a method called changeState() that the enum can use to
 //    transition to the next state
 
-//        Main main = new Main();
-//        main.changeState();
+//       Main main = new Main();
+//       main.changeState();
 
 
 // 2. Create an enum called "CoffeeSize" that contains values for small, medium, and
@@ -39,7 +44,7 @@ public class Main extends State {
 //    the week. Write a Java program that prompts the user to enter a day of
 //    the week, and then prints whether that day is a weekday or a weekend day.
 
-//
+
 //        DayOfWeek dayOfWeek = DayOfWeek.MONDAY;
 //        dayOfWeek.whichIsDay();
 

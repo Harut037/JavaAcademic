@@ -1,9 +1,11 @@
 package enums.homework_1;
 
+import java.sql.Time;
 import java.time.LocalTime;
-
+import java.util.concurrent.TimeUnit;
 
 public abstract class State {
+
 
     /**
      * With this method, we know which color is lighting now and how many seconds, we will wait to changing the next color.
@@ -18,9 +20,7 @@ public abstract class State {
         if (LocalTime.now().getSecond() > TrafficLight.RED.getSECONDS() && LocalTime.now().getSecond() < TrafficLight.GREEN.getSECONDS()) {
             System.out.print("Traffic light is now " + TrafficLight.YELLOW.getCOLOR() + ".");
             System.out.println(" ( Will change from yellow to green in " + (TrafficLight.YELLOW.getSECONDS() + TrafficLight.RED.getSECONDS() - LocalTime.now().getSecond()) + " seconds )");
-
         } else System.out.print("Traffic light is now " + TrafficLight.GREEN.getCOLOR() + ".");
         System.out.println(" ( Will change from green to red in " + (60 - TrafficLight.RED.getSECONDS() - TrafficLight.YELLOW.getSECONDS() + TrafficLight.GREEN.getSECONDS() - LocalTime.now().getSecond()) + " seconds )");
     }
-
 }

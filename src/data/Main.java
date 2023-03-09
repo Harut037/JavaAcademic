@@ -3,6 +3,8 @@ package data;
 import abstract_class_and_interface.homework_2.Triangle;
 import data.exercise_6.ShapeType;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //   1. Create a data package.
@@ -68,8 +70,9 @@ public class Main {
         //    RECTANGLE. Each enum value should have a reference to a concrete
         //    subclass of Shape that implements the getArea() and getPerimeter()
         //    methods for that shape.
-
-        ShapeType st = ShapeType.RECTANGLE;
+        System.out.print("Choose shapes` [ Square, Circle, Rectangle ]   ");
+        Scanner sc = new Scanner(System.in);
+        ShapeType st = ShapeType.valueOf(sc.nextLine().toUpperCase());
         st.print();
     }
 

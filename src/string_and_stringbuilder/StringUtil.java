@@ -19,7 +19,7 @@ public class StringUtil {
 //        su.result("We are learning java now");
 
 //        3. Գրել method (reverse), որը  շուռ է տալիս String
-//        su.reverse("sample");
+        su.reverse("sample");
 
 //        4. Գրել method, որը ստուգում է թե քանի անգամ է տրված տեքստում հանդիպել token
 //        ենթատողը

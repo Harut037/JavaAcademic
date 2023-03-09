@@ -1,6 +1,4 @@
-package data;
-
-import java.util.EnumSet;
+package data.exercise_5;
 
 public enum Unit {
     METER{
