@@ -46,7 +46,7 @@ public class StringUtil_2 {
 //    заменена на «h». В случае «z» алфавит вращается, и он превращается в
 //    «d». Реализуйте декодер для шифра Цезаря, где N = 5.
 //        System.out.print("Enter text and key:  ");
-//        System.out.println("\nResult:  " + su.algorithmCesar(sc.nextLine(), sc.nextInt()).toString());
+        System.out.println("\nResult:  " + su.algorithmCesar(sc.nextLine(), sc.nextInt()).toString());
 
 
 //    7. A palindrome is a word which reads the same backward or forward. 'abcba' is

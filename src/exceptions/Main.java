@@ -97,6 +97,9 @@ public class Main {
 //        exception and print an error message.
 
 
+//        ReadFile rf1 = new ReadFile();
+//        System.out.print("Enter text  ");
+//        rf1.printFileContainsLettersCount(sc.next());
 
 //   11. *Write a program that reads an input string from the user and performs a series of
 //        operations on it, such as converting it to uppercase, reversing it, and counting the
